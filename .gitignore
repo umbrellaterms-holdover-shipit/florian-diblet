@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Specific Data & Model Artifacts
+*.gguf
+temp_bf16.gguf
+output_checkpoint/
+custom_base_model_*
+dpo_output/
+
+# Processed Datasets & Raw Message HTML
+my_knowledge.jsonl
+dpo_pairs.jsonl
+extracted_messages.html
+*.jsonl
+
+# Native C++ Builds (llama.cpp)
+llama.cpp/
+build/
+
+# Distribution / packaging
+build/
+config/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE & OS Garbage
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+*.tmp

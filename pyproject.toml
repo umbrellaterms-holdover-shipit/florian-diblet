@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nano-llm-engine"
+version = "0.1.0"
+description = "CPU Knowledge Injection and Preference Collector"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "transformers",
+    "datasets",
+    "trl",
+    "peft",
+    "pyyaml",
+    "gradio",
+    "llama-cpp-python"
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+preprocess = "preprocess:main"
+train = "train:main"
+infer = "infer:main"
