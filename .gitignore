@@ -21,10 +21,10 @@ custom_base_model_*
 dpo_output/
 
 # Processed Datasets & Raw Message HTML
-my_knowledge.jsonl
-dpo_pairs.jsonl
-extracted_messages.html
-*.jsonl
+# my_knowledge.jsonl
+# dpo_pairs.jsonl
+# extracted_messages.html
+# *.jsonl
 
 # Native C++ Builds (llama.cpp)
 llama.cpp/

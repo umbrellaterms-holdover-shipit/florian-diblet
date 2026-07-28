@@ -1,6 +1,6 @@
 # Source Data Configuration
 raw_html_file: "extracted_messages.html"
-sft_dataset: "my_knowledge.jsonl"
+sft_dataset: "data/my_knowledge.jsonl"
 dpo_dataset: "dpo_pairs.jsonl"
 
 # Active Run Targets
